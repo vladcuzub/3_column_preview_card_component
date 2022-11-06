@@ -1,0 +1,118 @@
+body {
+     background-color: rgb(255, 255, 255);
+   
+    
+     font-size: 15px;
+     font-weight: 400;
+     padding: 88px 25px;
+}
+
+.card-orange {
+     background-color: hsl(31, 77%, 52%);
+     border-radius: 8px 8px 0 0;
+     /*min-height: 440px;*/
+     padding: 48px 50px;
+}
+
+.title-card1 {
+     color: white;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     font-size: 33px;
+     text-transform: uppercase;
+     font-family: 'Big Shoulders Display', cursive;
+}
+
+.content-card {
+     color: hsla(0, 0%, 100%, 0.498);
+     line-height: 1.5;
+     font-family: 'Lexend Deca', sans-serif;
+     text-align: left;
+     margin-bottom: 30px;
+  
+}
+
+.button-orange {
+     border: none;
+     height: 48px;
+     width: 146px;
+     border-radius: 25px;
+     color:  hsl(31, 77%, 52%);
+     font-size: 15px;
+     font-weight: 700;
+     cursor: pointer;
+     transition: all 0.9s ease-in-out;
+}
+.button-orange:hover {
+     background-color: hsl(31, 77%, 52%);
+     color: white;
+     border: 2px solid white;
+
+}
+
+.card-green {
+     background-color: hsl(184, 100%, 22%);
+     padding: 48px 50px;
+}
+
+.button-green {
+     border: none;
+     height: 48px;
+     width: 146px;
+     border-radius: 25px;
+     color: hsl(184, 100%, 22%);
+     font-size: 15px;
+     font-weight: 700;
+     cursor: pointer;
+     transition: all 0.9s ease-in-out;
+}
+.button-green:hover {
+     background-color: hsl(184, 100%, 22%);
+     color: white;
+     border: 2px solid white;
+
+}
+
+.card-darkgreen  {
+     padding: 48px 50px;
+     background-color: hsl(179, 100%, 13%);
+     border-radius: 0 0 8px 8px ;
+}
+
+.button-darkgreen {
+     border: none;
+     height: 48px;
+     width: 146px;
+     border-radius: 25px;
+     color: hsl(179, 100%, 13%);
+     font-size: 15px;
+     font-weight: 700;
+     cursor: pointer;
+     transition: all 0.9s ease-in-out;
+}
+.button-darkgreen:hover {
+     color: white;
+     border: 2px solid white;
+     background-color: hsl(179, 100%, 13%);
+}
+
+
+
+@media screen and (min-width:992px) {
+     .cards {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+          margin: auto;
+   
+          max-width: 900px;
+          padding: 0;
+     }
+
+     .card-orange {
+          border-radius: 8px 0 0 8px;
+     }
+     .card-darkgreen {
+          border-radius: 0 8px 8px 0;
+     }
+}
